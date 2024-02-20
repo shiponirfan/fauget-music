@@ -11,7 +11,7 @@ import { usePathname } from "next/navigation";
 const Navbar = () => {
     const currentRoute = usePathname();
     return (
-        <div className="bg-secondary-bg py-12 px-8 min-h-screen flex flex-col justify-between items-baseline">
+        <div className="bg-secondary-bg py-12 px-8 h-screen fixed w-72 flex flex-col justify-between items-baseline">
             <div>
                 <div>
                     <Link href="/"><Image src={logo} alt="Fauget Music Logo" /></Link>
