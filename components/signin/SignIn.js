@@ -9,7 +9,7 @@ const SignIn = ({ onClose, setShowModal2 }) => {
         <div>
             <div className="flex flex-col justify-center items-center mb-8">
                 <Image className="w-60" src={logo} alt="Fauget Music Logo" />
-                <h2 className="font-semibold text-4xl mt-12">Sign In</h2>
+                <h2 className="font-semibold text-4xl mt-8">Sign In</h2>
             </div>
 
             <form>

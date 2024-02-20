@@ -1,8 +1,11 @@
+import Categories from "@/components/categories/Categories";
+import ForYouBanner from "@/components/forYouBanner/ForYouBanner";
 
 export default function Home() {
   return (
     <main>
-      <h2>Home Page</h2>
+      <ForYouBanner/>
+      <Categories/>
     </main>
   );
 }

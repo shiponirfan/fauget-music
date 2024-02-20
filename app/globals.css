@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.for-you-banner {
+    background-image: url(../assets/images/foryoubanner.png);
+}
